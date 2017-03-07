@@ -19,9 +19,8 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-<?php echo get_template_directory_uri() ?>
     <link href="<?php echo get_template_directory_uri() ?>/css/style.css" rel="stylesheet" type="text/css" />
-    <link href="<?php echo get_template_directory_uri() ?>/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="<?php echo get_template_directory_uri() ?>/css/font-awesome.min.css" rel="stylesheet" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/jquery.jcarousel.min.js"></script>
 
