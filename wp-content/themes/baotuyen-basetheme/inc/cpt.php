@@ -23,7 +23,7 @@ function product_register() {
         'public' => true,
         'show_ui' => true,
         'show_in_menu' => true,
-        'show_in_nav_menus' => false,
+        'show_in_nav_menus' => true,
         'rewrite' => false,
         'supports' => array('title', 'editor', 'thumbnail','excerpt'),
         'has_archive' => true,
