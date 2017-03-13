@@ -77,34 +77,4 @@
 
 
 
-            <div id="slider">
-                <div style="width: none" id="featured">
-                    <img data-caption="#slide1" src="<?php echo get_template_directory_uri() ?>/img/Untitled-1.jpg" width="1000" height="300" />
-                    </a>
-                    <img data-caption="#slide2" src="<?php echo get_template_directory_uri() ?>/img/wqk1467888094.jpg" width="1000" height="300" />
-                    </a>
-                </div>
-                <div class="orbit-caption" id="slide1">
-                    <div class="slider_top">
-                        <h2><a href="http://demo1.skyvietnam.com.vn/quanson/chu-inox-chu-noi">Chữ INOX</a></h2> Với công nghệ làm biển công ty chất liệu inox và biển công ty bằng đồng hiện đang là 2 loại biển quảng cáo giữ thứ hạng cao theo xếp hạng yêu cầu làm biển quảng cáo, biển tên công ty cho doanh nghiệp.
-                        <div class="read">
-                            <a href="http://demo1.skyvietnam.com.vn/quanson/chu-inox-chu-noi">Xem chi tiết</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="orbit-caption" id="slide2">
-                    <div class="slider_top">
-                        <h2><a href="http://demo1.skyvietnam.com.vn/quanson/den-led-trang-tri">Đèn Led trang trí</a></h2> Hiện nay có rất nhiều loại LED với đầy đủ các kích thước, hình dáng và màu sắc khác nhau, rất thích hợp dùng để trang trí. Được chế tạo từ vật liệu polyme, LED có độ bền cao, dễ vận chuyển.
-                        <div class="read">
-                            <a href="http://demo1.skyvietnam.com.vn/quanson/den-led-trang-tri">Xem chi tiết</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="vien_slider"></div>
-
-
-
-            <div id="content">
-                <?php get_sidebar() ?>
+            

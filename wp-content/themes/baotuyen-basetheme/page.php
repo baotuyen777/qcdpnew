@@ -1,9 +1,8 @@
 <?php
-/**
- * Template Name: Home
- */
 get_header();
 ?>
+<div id="content">
+    <?php get_sidebar() ?>
 <div id="right" class="page-single">
     <div class="box" style="width:100%;">
         <?php
