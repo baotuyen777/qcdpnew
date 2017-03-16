@@ -1,27 +1,23 @@
 <?php
 /**
- * Template name: News
  */
 get_header();
+$term = get_term_by('slug', get_query_var('term'), get_query_var('taxonomy'));
 ?>
 <div id="content">
     <?php get_sidebar() ?>
     <div id="right" class="page-single">
         <div class="box" style="width:100%;">
 
-            <h1><a >Tin tức</a></h1>
+            <h1><a ><?php echo $term->name ?></a></h1>
             <div class="box_main">
 
                 <div id="link_br">
-                    <a href="<?php echo home_url() ?>" >Trang chủ » </a> Tin tức
+                    <a href="<?php echo home_url() ?>" >Trang chủ » </a> <?php echo $term->name ?>
                 </div>
                 <div class="list">
                     <?php
-                    $arg = array(
-                        'post_type' => 'post'
-                    );
-                    $query = new WP_Query($arg);
-                    if ($query->have_posts()): while ($query->have_posts()): $query->the_post();
+                    if (have_posts()): while (have_posts()): the_post();
                             ?>
                             <div class="row">
                                 <div class="col-md-2">
@@ -61,4 +57,3 @@ get_header();
     </div>
     <?php get_footer(); ?>
 
-     

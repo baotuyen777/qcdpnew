@@ -1,6 +1,6 @@
 <?php
 /**
- * Template name: News
+ * Template name: product
  */
 get_header();
 ?>
@@ -9,16 +9,16 @@ get_header();
     <div id="right" class="page-single">
         <div class="box" style="width:100%;">
 
-            <h1><a >Tin tức</a></h1>
+            <h1><a >Sản phẩm</a></h1>
             <div class="box_main">
 
                 <div id="link_br">
-                    <a href="<?php echo home_url() ?>" >Trang chủ » </a> Tin tức
+                    <a href="<?php echo home_url() ?>" >Trang chủ » </a> Sản phẩm
                 </div>
                 <div class="list">
                     <?php
                     $arg = array(
-                        'post_type' => 'post'
+                        'post_type' => 'product'
                     );
                     $query = new WP_Query($arg);
                     if ($query->have_posts()): while ($query->have_posts()): $query->the_post();

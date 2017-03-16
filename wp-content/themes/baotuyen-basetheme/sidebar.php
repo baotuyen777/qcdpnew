@@ -3,8 +3,8 @@
     $terms = get_terms(array(
         'taxonomy' => 'product_cat',
         'hide_empty' => false,
-        'orderby' => 'name',
-        'order' => 'DESC'
+//        'orderby' => 'name',
+//        'order' => 'DESC'
     ));
     foreach ($terms as $term):
         if ($term->term_id == 3)
