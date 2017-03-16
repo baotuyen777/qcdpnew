@@ -52,15 +52,17 @@
                             <p><?php echo get_field('phone', PAGE_HOME) ?></p>
                         </div>
                         <div id="search">
-                            <form  >
+                            <form  action="<?php echo home_url('/'); ?>" >
                                 <div class="search1">
-                                    <input type="text" name="s" id="ten" placeholder="nhập từ khóa">
+                                    <input type="text" class="search-field" name="s" id="ten" placeholder="Nhập từ khóa"
+                                           value="<?php echo get_search_query() ?>" name="s"/>
                                 </div>
                                 <div class="search2">
-                                    <input type="submit" name="submit" value="">
+                                    <input type="submit"  value="">
                                 </div>
                                 <div class="clear"></div>
                             </form>
+
 
                         </div>
                     </div>
@@ -77,4 +79,3 @@
 
 
 
-            

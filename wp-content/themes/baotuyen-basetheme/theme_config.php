@@ -9,3 +9,5 @@ define('PAGE_FACEBOOK', 61);
 define('PAGE_CONTACT', 65);
 
 define('CAT_NEWS', 1);
+
+define('NO_IMAGE', '/img/noimagefound.jpg');

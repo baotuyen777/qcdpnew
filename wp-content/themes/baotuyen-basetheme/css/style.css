@@ -5,6 +5,13 @@
 .page-single{
     margin-bottom: 20px;
 }
+.img-list{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.box_main .content{
+    padding-left: 10px;
+}
 #logo img{
     height: 100px; 
 }
@@ -289,11 +296,11 @@ body
     width: 33%;
     margin-top: 60px;
     background: #009A44;
-/*    background: -moz-linear-gradient(top, #797979 0%, #797979 50%, #474747 51%, #474747 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0161aa), color-stop(50%,#428bca), color-stop(51%,#428bca), color-stop(100%,#0161aa));
-    background: -webkit-linear-gradient(top, #0161aa 0%,#428bca 50%,#0161aa 51%,#0161aa 100%);
-    background: -o-linear-gradient(top, #797979 0%,#797979 50%,#474747 51%,#474747 100%);
-    background: -ms-linear-gradient(top, #797979 0%,#797979 50%,#474747 51%,#474747 100%);*/
+    /*    background: -moz-linear-gradient(top, #797979 0%, #797979 50%, #474747 51%, #474747 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0161aa), color-stop(50%,#428bca), color-stop(51%,#428bca), color-stop(100%,#0161aa));
+        background: -webkit-linear-gradient(top, #0161aa 0%,#428bca 50%,#0161aa 51%,#0161aa 100%);
+        background: -o-linear-gradient(top, #797979 0%,#797979 50%,#474747 51%,#474747 100%);
+        background: -ms-linear-gradient(top, #797979 0%,#797979 50%,#474747 51%,#474747 100%);*/
     /*background: linear-gradient(to bottom, #0161aa 0%,#428bca 50%,#428bca 51%,#2b85ca 100%);*/
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#797979', endColorstr='#474747',GradientType=0 );
     -webkit-border-radius: 6px 6px 6px 6px;
@@ -521,6 +528,7 @@ body
 .box_main
 {
     background:#fff;
+    padding: 0 10px;
 }
 .box_top h3
 {
@@ -615,7 +623,7 @@ body
     font-size: 13px;
     color: #5c5c5c;
     background: url(../img/icon_dm.png) no-repeat;
-    background-position: 0 8px;
+    background-position: 0 6px;
     padding-left: 21px;
 }
 #menu_left li a:hover
@@ -1199,7 +1207,7 @@ div.slider-nav span.left {
 .orbit-bullets li.active.has-thumb {
     background-position: 0 0;
     border-top: 2px solid #000; }
-.jcarousel-skin-tango .jcarousel-container {
+/*.jcarousel-skin-tango .jcarousel-container {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -1257,9 +1265,9 @@ div.slider-nav span.left {
     color: #000;
 }
 
-/**
+*
  *  Horizontal Buttons
- */
+ 
 .jcarousel-skin-tango .jcarousel-next-horizontal {
 
     position: absolute;
@@ -1327,9 +1335,9 @@ div.slider-nav span.left {
     background-position: -96px 0;
 }
 
-/**
+*
  *  Vertical Buttons
- */
+ 
 .jcarousel-skin-tango .jcarousel-next-vertical {
     position: absolute;
     bottom: 5px;
@@ -1382,8 +1390,8 @@ div.slider-nav span.left {
 .jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active {
     cursor: default;
     background-position: 0 -96px;
-}
-.jcarousel-skin-ie7 .jcarousel-container {
+}*/
+/*.jcarousel-skin-ie7 .jcarousel-container {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -1429,7 +1437,7 @@ div.slider-nav span.left {
 }
 
 .jcarousel-skin-ie7 .jcarousel-item-horizontal {
-    /*margin-left:;*/
+    margin-left:;
     margin-right:10px;
 }
 
@@ -1445,9 +1453,9 @@ div.slider-nav span.left {
 .jcarousel-skin-ie7 .jcarousel-item-placeholder {
 }
 
-/**
+*
  *  Horizontal Buttons
- */
+ 
 .jcarousel-skin-ie7 .jcarousel-next-horizontal {
     margin-right: 5px;
     padding-left: 5px;
@@ -1527,9 +1535,9 @@ div.slider-nav span.left {
     background-position: -96px 0;
 }
 
-/**
+*
  *  Vertical Buttons
- */
+ 
 .jcarousel-skin-ie7 .jcarousel-next-vertical {
     position: absolute;
     bottom: 5px;
@@ -1629,7 +1637,7 @@ div.slider-nav span.left {
 }
 
 .jcarousel-skin-ie8 .jcarousel-item-horizontal {
-    /*margin-left:;*/
+    margin-left:;
     margin-right:10px;
 }
 
@@ -1645,9 +1653,9 @@ div.slider-nav span.left {
 .jcarousel-skin-ie8 .jcarousel-item-placeholder {
 }
 
-/**
+*
  *  Horizontal Buttons
- */
+ 
 .jcarousel-skin-ie8 .jcarousel-next-horizontal {
     position: absolute;
     top:-23px;
@@ -1712,12 +1720,12 @@ div.slider-nav span.left {
 .jcarousel-skin-ie8 .jcarousel-prev-disabled-horizontal:active {
     cursor: default;
     background-position: -96px 0;
-}
+}*/
 
 /**
  *  Vertical Buttons
  */
-.jcarousel-skin-ie8 .jcarousel-next-vertical {
+/*.jcarousel-skin-ie8 .jcarousel-next-vertical {
     position: absolute;
     bottom: 5px;
     left: 43px;
@@ -1769,8 +1777,8 @@ div.slider-nav span.left {
 .jcarousel-skin-ie8 .jcarousel-prev-disabled-vertical:active {
     cursor: default;
     background-position: 0 -96px;
-}
-.jw_playlist_playlist
+}*/
+/*.jw_playlist_playlist
 {
     display:block;
     float:left;
@@ -1832,12 +1840,14 @@ div.slider-nav span.left {
 .odd
 {
     color:white;
-}
+}*/
 /*End video*/
 #link_br {
     color: #3a3a3a;
     font-family: tahoma;
-    padding-bottom: 26px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #f4f4f4;
     font-size: 13px;
     padding-left: 5px;
     padding-top: 7px;
@@ -1904,7 +1914,7 @@ div.slider-nav span.left {
     margin-bottom: 5px;
     width: 400px;
 }
-.keugoi
+/*.keugoi
 {
     padding-left:17px;
     padding-right:10px;
@@ -1928,7 +1938,7 @@ div.slider-nav span.left {
 {
     font-size:15px;
     color:#333;
-}
+}*/
 .linkhaybutton .count
 {
     background:url(../img/lh_widget_button.gif) no-repeat scroll 0px -109px;
@@ -2340,7 +2350,7 @@ div.slider-nav span.left {
         +(documentElement.clientHeight-this.clientHeight)
         : document.body.scrollTop
         +(document.body.clientHeight-this.clientHeight)); z-index:1000000}*/
-#fl813691{z-index: 99;font: 12px Arial, Helvetica, sans-serif; color:#666; position:fixed; _position: absolute; right:0; bottom:0; height:250px;background:#efefef;border:1px solid #ccc;border-bottom:none }
+/*#fl813691{z-index: 99;font: 12px Arial, Helvetica, sans-serif; color:#666; position:fixed; _position: absolute; right:0; bottom:0; height:250px;background:#efefef;border:1px solid #ccc;border-bottom:none }
 #eb951855{ width:247px; padding-right:7px; background:url(fullborder_bg_right1.gif) no-repeat right top;}
 #cob263512{background:url(images/fullborder_bg1.gif) no-repeat left top; height:250px;}
 #coh963846{color:#fff;display:block; height:25px; line-height:20px; font-size:11px; width:268px;padding-top:5px;padding-left:5px;}
@@ -2359,7 +2369,7 @@ div.slider-nav span.left {
 {
     padding:3px;
     font-weight:bold;
-}
+}*/
 
 .header_mb
 {
