@@ -52,7 +52,7 @@ body{line-height:18px;font-family:arial}
 .wap_menu_mb1{background:#d5060c;-webkit-border-radius:6px 6px 0 0;-moz-border-radius:6px 6px 0 0;border-radius:6px 6px 0 0;height:auto;width:100%;-moz-box-shadow:inset 0 1px 1px #f1adaf;-webkit-box-shadow:inset 0 1px 1px #f1adaf;box-shadow:inset 0 1px 1px #f1adaf;border-top:1px solid #c80308}
 #navbar,#search{background:#009A44}
 #container{width:1000px;margin:0 auto}
-#header{height:125px}
+/*#header{height:125px}*/
 #menu,.sub-menu{position:absolute}
 #logo {
     position: absolute;
@@ -67,7 +67,7 @@ body{line-height:18px;font-family:arial}
 #menu_top>li>a,.sub-menu li a{font-size:13px;display:block;font-family:tahoma;font-weight:700}
 /*#search input[type=submit]{background:url(../img/search.png) no-repeat;width:22px;height:16px;border:none;cursor:pointer}*/
 #menu{background:url(../img/inline.png) left bottom repeat-x;width:100%;height:47px;top:105px;left:0}
-#navbar{border-radius:3px 3px 0 0;height:42px;width:100%;box-shadow:inset 0 1px 1px #579bd0;border-top:1px solid #3e82b5}
+#navbar{border-radius:3px 3px 0 0;height:42px;width:100%;   box-shadow: 0px 3px 5px #888888;border-top:1px solid #3e82b5}
 #menu_top{margin-top:1px}
 #menu_top>li{float:left}
 #menu_top>li>a{color:#fff;padding:11px 13px;border-left:1px solid #02883d;border-right:1px solid #02883d}
@@ -79,7 +79,7 @@ body{line-height:18px;font-family:arial}
 .sub-menu li a{border-bottom:1px solid #d7d7d7;padding-top:10px;padding-bottom:10px;padding-left:10px;color:#000}
 .sub-menu li:first-child a{border-top:5px solid #ffa302}
 .sub-menu li a:hover{background:#2e7abb;color:#fff}
-#slider{width:100%;height:300px;padding-bottom:10px;box-shadow:0 6px 4px -1px #908f8f,0 15px 5px 0 rgba(0,0,0,.06),0 5px 10px 0 rgba(0,0,0,.08)}
+#slider{width:100%;height:300px;padding-bottom:10px;box-shadow:0 6px 4px -1px #908f8f,0 15px 5px 0 rgba(0,0,0,.06),0 5px 10px 0 rgba(0,0,0,.08);    overflow: hidden;}
 .slider_top{margin-top:20px;width:220px;padding-right:15px;float:right;line-height:25px}
 .category_all{background:#006029;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;-moz-box-shadow:inset 0 1px 1px #e56d6f;-webkit-box-shadow:inset 0 1px 1px #4bc17e;box-shadow:inset 0 1px 1px #1ca557;border:1px solid #085629;width:100%;height:110px}
 .category_icon{width:106px;height:109px;float:left;border-right:1px solid #157940;text-align:center}
@@ -126,7 +126,7 @@ body{line-height:18px;font-family:arial}
 .box_name:hover{color:#DA1117}
 #info p,#info p a{color:#fff}
 #thongke label,#thongke span{color:#505050;font-family:tahoma;font-size:13px}
-#bg_footer{background:#333;height:auto;width:100%;padding-bottom:25px}
+/*#bg_footer{background:#333;height:auto;width:100%;}*/
 #footer{width:1000px;margin:0 auto}
 #vien_fo{width:100%;height:5px}
 #menu_footer{background:#d3060b;height:41px;width:100%;-webkit-border-radius:0 0 6px 6px;-moz-border-radius:0 0 6px 6px;border-radius:0 0 6px 6px}
@@ -269,7 +269,7 @@ div.slider-nav span.left{background:url(../img/left.png) no-repeat;left:89%;top:
 .thuvien1_name{text-align:center;color:#333;padding-top:5px}
 #logo_mb{padding:10px 0}
 #hotline_mb{color:red;font-size:11px;text-align:right;text-transform:uppercase;font-weight:700;padding-top:16px}
-.box{background:#fff;border: 1px solid #e2e1e1 ;margin-bottom: 10px;}
+.box{background:#fff;border: 1px solid #e2e1e1 ;margin-bottom: 10px;    box-shadow: 0px 3px 5px #888888;}
 .other_pro .box_item,.sanpham .box_item{float:left;width:183px}
 .list_pro .box_item,.search .box_item{float:left;width:184px}
 .form_contact{width:100%;font-size:14px;color:#444}

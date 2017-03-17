@@ -31,8 +31,6 @@ get_header();
 
 <div id="vien_slider"></div>
 
-
-
 <main id="content">
     <div class="row">
         <?php get_sidebar() ?>

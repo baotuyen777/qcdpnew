@@ -1,12 +1,21 @@
 
 </div><!-- container -->
 
-<div id="bg_footer">
+<footer id="bg_footer">
     <div class="container">
-        <?php echo get_field('footer', PAGE_HOME) ?>
+        <h3 >Công ty TNHH quảng cáo và phát triển công nghệ Đức Phát</h3>
+        <div class="info-office">
+            <div>Địa chỉ: 278 KIm Giang - Thanh Xuân - Hà Nội </div>
+            <div>
+                Tel: 04. 22.11.99.66 - Hotline: 094 81 123 18</div>
+            <div>
+                Email: quangcaoducphat@gmail.com
+            </div>
+        </div>
+        <?php // echo get_field('footer', PAGE_HOME) ?>
         <a rel="nofollow" href="https://www.facebook.com/baotuyen666" id="desa">DavidBui</a>
     </div>
-</div>
+</footer>
 
 <?php wp_footer(); ?>
 
