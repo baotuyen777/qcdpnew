@@ -1,4 +1,4 @@
-<div id="left">
+<div id="left" class="col-md-4">
     <?php
     $terms = get_terms(array(
         'taxonomy' => 'product_cat',

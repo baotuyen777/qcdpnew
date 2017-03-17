@@ -1,12 +1,6 @@
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+
+</div><!-- container -->
+
 <div id="bg_footer">
     <div class="container">
         <?php echo get_field('footer', PAGE_HOME) ?>

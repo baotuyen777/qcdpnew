@@ -1,0 +1,46 @@
+/* 
+    Created on : Mar 17, 2017, 10:26:35 AM
+    Author     : tuyenbv
+*/
+body {
+    background: url(../img/bg-body.png);
+    color: #000;
+}
+header{
+    background: #fff;
+}
+form.search{
+    margin-top: 10px;
+    position: relative;
+}
+.search input{
+    width: 100%;
+}
+.search button{
+    position: absolute;
+    right: 0px;
+    bottom: 2px;
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+}
+.top-header{
+    text-align: center;
+}
+main{
+
+}
+.wrap_category{
+    background: #fff;
+    border: 1px solid #e2e1e1;
+    margin-bottom: 10px;
+}
+.orbit-wrapper{
+    max-width: 100%;
+}
+.clear{
+    clear: both;
+}
+#menu-primary{
+    margin-bottom: 10px
+}
