@@ -3,7 +3,6 @@ get_header();
 ?>
 <main id="content">
     <div class="row">
-        <?php get_sidebar() ?>
         <div id="right" class="col-md-8 page-single">
             <div class="box" style="width:100%;">
                 <?php
@@ -42,6 +41,7 @@ get_header();
                 ?>
             </div>
         </div>
+        <?php get_sidebar() ?>
     </div>
 </main>
 <?php get_footer(); ?>

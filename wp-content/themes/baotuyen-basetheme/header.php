@@ -41,8 +41,8 @@
                             <img src="<?php echo get_template_directory_uri() ?>/img/logo.jpg">
                         </a>
                     </div>
-                    <div  text-center">
-                          <div class="slogan">Công ty TNHH quảng cáo và phát triển công nghệ Đức Phát</div>
+                    <div class="wrap_logo" >
+                        <div class="slogan">Công ty TNHH quảng cáo và phát triển công nghệ Đức Phát</div>
                         <div id="hotline_top">
                             <p>Điện thoại</p>
                             <p><?php echo get_field('phone', PAGE_HOME) ?></p>
@@ -54,9 +54,9 @@
                             <div class="clear"></div>
                         </form>-->
                     </div>
+                    <div class="clear"></div>
                 </div>
-                <div class="clear"></div>
-                <div class="togger-menu"><span>Menu</span> <i class="fa fa-bars" aria-hidden="true"></i></div>
+                <div class="togger-menu"><span>&nbsp;</span> <i class="fa fa-bars" aria-hidden="true"></i></div>
                 <div id="menu-primary" id="menu">
                     <div id="navbar">
                         <?php wp_nav_menu(array('theme_location' => 'main-menu', 'menu_id' => "menu_top", 'menu_class' => 'nav-menu clearfix')); ?>

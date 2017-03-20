@@ -13,17 +13,17 @@ get_header();
     </div>
     <div class="orbit-caption" id="slide1">
         <div class="slider_top">
-            <h2><a href="http://demo1.skyvietnam.com.vn/quanson/chu-inox-chu-noi">Chữ INOX</a></h2> Với công nghệ làm biển công ty chất liệu inox và biển công ty bằng đồng hiện đang là 2 loại biển quảng cáo giữ thứ hạng cao theo xếp hạng yêu cầu làm biển quảng cáo, biển tên công ty cho doanh nghiệp.
+            <h2><a href="#">Chữ INOX</a></h2> Với công nghệ làm biển công ty chất liệu inox và biển công ty bằng đồng hiện đang là 2 loại biển quảng cáo giữ thứ hạng cao theo xếp hạng yêu cầu làm biển quảng cáo, biển tên công ty cho doanh nghiệp.
             <div class="read">
-                <a href="http://demo1.skyvietnam.com.vn/quanson/chu-inox-chu-noi">Xem chi tiết</a>
+                <a href="#">Xem chi tiết</a>
             </div>
         </div>
     </div>
     <div class="orbit-caption" id="slide2">
         <div class="slider_top">
-            <h2><a href="http://demo1.skyvietnam.com.vn/quanson/den-led-trang-tri">Đèn Led trang trí</a></h2> Hiện nay có rất nhiều loại LED với đầy đủ các kích thước, hình dáng và màu sắc khác nhau, rất thích hợp dùng để trang trí. Được chế tạo từ vật liệu polyme, LED có độ bền cao, dễ vận chuyển.
+            <h2><a href="#">Đèn Led trang trí</a></h2> Hiện nay có rất nhiều loại LED với đầy đủ các kích thước, hình dáng và màu sắc khác nhau, rất thích hợp dùng để trang trí. Được chế tạo từ vật liệu polyme, LED có độ bền cao, dễ vận chuyển.
             <div class="read">
-                <a href="http://demo1.skyvietnam.com.vn/quanson/den-led-trang-tri">Xem chi tiết</a>
+                <a href="#">Xem chi tiết</a>
             </div>
         </div>
     </div>
@@ -33,7 +33,6 @@ get_header();
 
 <main id="content">
     <div class="row">
-        <?php get_sidebar() ?>
         <div id="right" class="col-md-8">
             <?php
             $terms = get_terms(array(
@@ -44,7 +43,9 @@ get_header();
                 ?>
                 <div class="wrap_category">
                     <div class="box_top">
-                        <a href="<?php echo get_category_link($term) ?>" title="<?php echo $term->name ?>"><?php echo $term->name ?></a>
+                        <a href="<?php echo get_category_link($term) ?>" title="<?php echo $term->name ?>">
+                            <?php echo $term->name ?>
+                        </a>
                     </div>
                     <div id="owl-<?php echo $term->term_id ?>" class="owl-carousel">
                         <?php
@@ -97,6 +98,7 @@ get_header();
                 </div>
             <?php endforeach; ?>
         </div>
+        <?php get_sidebar() ?>
     </div>
 </main>
 

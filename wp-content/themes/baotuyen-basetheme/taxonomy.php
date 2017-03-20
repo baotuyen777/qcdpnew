@@ -6,7 +6,6 @@ $term = get_term_by('slug', get_query_var('term'), get_query_var('taxonomy'));
 ?>
 <main id="content">
     <div class="row">
-        <?php get_sidebar() ?>
         <div id="right" class="col-md-8 page-single">
             <div class="box" style="width:100%;">
                 <h1><a ><?php echo $term->name ?></a></h1>
@@ -35,7 +34,7 @@ $term = get_term_by('slug', get_query_var('term'), get_query_var('taxonomy'));
                                     </div>
                                     <div class="col-md-9">
                                         <div class="content">
-                                            <h3><?php the_title() ?></h3>
+                                            <h3> <a href = "<?php the_permalink() ?>" title = "<?php the_title() ?>"><?php the_title() ?></a></h3>
                                             <br>
                                             <p> <?php echo wp_trim_words(get_the_content(), 50) ?></p>
                                         </div>
@@ -55,6 +54,7 @@ $term = get_term_by('slug', get_query_var('term'), get_query_var('taxonomy'));
 
             </div>
         </div>
+        <?php get_sidebar() ?>
     </div>
 </main>
 <?php get_footer(); ?>

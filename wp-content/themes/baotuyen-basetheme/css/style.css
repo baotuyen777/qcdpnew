@@ -54,10 +54,16 @@ body{line-height:18px;font-family:arial}
 #container{width:1000px;margin:0 auto}
 /*#header{height:125px}*/
 #menu,.sub-menu{position:absolute}
+.wrap_logo{
+    padding-top: 40px;
+}
 #logo {
-    position: absolute;
-    left: 10px;
-    top:10px;
+    /*    position: absolute;
+        left: 10px;
+        top:10px;*/
+    width: 150px;
+    padding: 20px;
+    float: left;
 }
 #logo img{border:none}
 /*.search1{float:left;margin-left:5px;margin-top:6px}
@@ -115,10 +121,28 @@ body{line-height:18px;font-family:arial}
 #tygia{padding-left:20px}
 #truycap{padding-top:12px;padding-left:69px;padding-bottom:12px}
 .box_item{width:176px;padding-left:9px}
-.box_img{widt1h:174px;heig1ht:111px;border:1px solid #f4f4f4}
+.box_img{
+    overflow: hidden;
+    padding: 10px;
+}
+
 .item{border:1px solid #ebebeb;padding:0;margin:2px 2px 10px}
 #download,#homnay,#online,#thangnay{padding-bottom:5px}
-.box_img img{width:100%;height:105px}
+.box_img img{
+
+    width:100%;height:100%;
+    border:1px solid #f4f4f4;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+.box_img img:hover{
+    border-radius: 50%;
+    -webkit-box-shadow: 5px 5px 5px #111;
+    box-shadow: 5px 5px 5px #111;
+    transform: rotate(360deg);
+}
 .box_name{display:block;font-size:13px;font-weight:700;color:#5b5b5b;height:35px;overflow:hidden;margin:5px 0;padding-left:7px}
 #fanpage,#thongke{margin-top:24px;background:#fff;float:left}
 #download_all,#lienquan ul li a{padding-left:15px}
@@ -148,12 +172,18 @@ body{line-height:18px;font-family:arial}
 #fanpage{width:314px;overflow:hidden}
 #download_nd{float:left;font-family:tahoma;font-size:13px;font-weight:700;color:#000}
 #hotline_top p,.slogan{color:#009A44;font-weight:700}
-#hotline_top{margin-top:10px;
-             /*background:url(../img/hotline.png) no-repeat;*/
-             height:54px;padding-left:54px}
+#hotline_top{
+    /*margin-top:10px;*/
+    padding-right: 10px;
+    background:url(../img/hotline.png) no-repeat;
+    float: right;
+    height:54px;padding-left:54px}
 #thongtin,#tinmoi,#xemnhieu,.video{margin-top:10px}
 #hotline_top p{font-size:24px;font-family:utm_avenidaregular;padding-top:5px;   margin-bottom: 5px;}
-.slogan{font-size:18px;font-family:inherit;padding-top:20px;}
+.slogan{
+    width: 52%;
+    float:left;
+    font-size:18px;font-family:inherit;padding-top:20px;}
 #tukhoachay{width:700px}
 #tukhoachay li{display:inline-block;color:#fff;line-height:18px}
 #tukhoachay li a{color:#fff;font-size:13px}

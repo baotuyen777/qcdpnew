@@ -7,7 +7,11 @@ body {
     color: #000;
 }
 header{
-    background: #fff;
+    background: url(../img/wood-horizontal.jpg);
+        background-size: cover;
+}
+p,em{
+    margin-bottom: 10px;
 }
 form.search{
     margin-top: 10px;
@@ -25,13 +29,21 @@ form.search{
     font-size: 14px;
 }
 .top-header{
-    text-align: center;
+    /*text-align: center;*/
 }
 main{
 
 }
+main h4{
+ font-weight: bold;
+}
 main img{
     max-width: 100%;
+}
+.aligncenter{
+    text-align: center;
+    margin: 10px auto;
+    display: block;
 }
 .wrap_category{
     background: #fff;
@@ -59,4 +71,23 @@ footer h3{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
+}
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+#hotline_top:hover,#logo:hover {
+    animation: bounce 1s;
 }
