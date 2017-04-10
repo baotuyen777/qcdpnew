@@ -50,7 +50,7 @@ body{line-height:18px;font-family:arial}
 #footer,#header{position:relative}
 .search_mb #ten{background:#fff;border:1px solid #ccc;padding:5px;height:25px;width:100%}
 .wap_menu_mb1{background:#d5060c;-webkit-border-radius:6px 6px 0 0;-moz-border-radius:6px 6px 0 0;border-radius:6px 6px 0 0;height:auto;width:100%;-moz-box-shadow:inset 0 1px 1px #f1adaf;-webkit-box-shadow:inset 0 1px 1px #f1adaf;box-shadow:inset 0 1px 1px #f1adaf;border-top:1px solid #c80308}
-#navbar,#search{background:#009A44}
+/*#navbar,#search{background:#009A44}*/
 #container{width:1000px;margin:0 auto}
 /*#header{height:125px}*/
 #menu,.sub-menu{position:absolute}
@@ -73,8 +73,10 @@ body{line-height:18px;font-family:arial}
 #menu_top>li>a,.sub-menu li a{font-size:13px;display:block;font-family:tahoma;font-weight:700}
 /*#search input[type=submit]{background:url(../img/search.png) no-repeat;width:22px;height:16px;border:none;cursor:pointer}*/
 #menu{background:url(../img/inline.png) left bottom repeat-x;width:100%;height:47px;top:105px;left:0}
-#navbar{border-radius:3px 3px 0 0;height:42px;width:100%;   box-shadow: 0px 3px 5px #888888;border-top:1px solid #3e82b5}
-#menu_top{margin-top:1px}
+#navbar{
+    /*border-radius:3px 3px 0 0;*/
+    height:42px;width:100%;   box-shadow: 0px 3px 5px #888888;border-top:1px solid #3e82b5}
+#menu_top{margin-top:1px;background: #009A44;}
 #menu_top>li{float:left}
 #menu_top>li>a{color:#fff;padding:11px 13px;border-left:1px solid #02883d;border-right:1px solid #02883d}
 #menu_top>li:first-child>a{border-left:none}
@@ -174,16 +176,27 @@ body{line-height:18px;font-family:arial}
 #hotline_top p,.slogan{color:#009A44;font-weight:700}
 #hotline_top{
     /*margin-top:10px;*/
-    padding-right: 10px;
-    background:url(../img/hotline.png) no-repeat;
-    float: right;
-    height:54px;padding-left:54px}
+    /*    padding-right: 10px;
+        background:url(../img/hotline.png) no-repeat;
+        float: right;
+        height:54px;padding-left:54px*/
+    /*height: 54px;*/
+    position: absolute;
+    /*padding-left: 54px;*/
+    bottom: 0px;
+    right: 10px;
+}
 #thongtin,#tinmoi,#xemnhieu,.video{margin-top:10px}
-#hotline_top p{font-size:24px;font-family:utm_avenidaregular;padding-top:5px;   margin-bottom: 5px;}
+#hotline_top p{
+    font-size:24px;
+    font-family:arial;
+    letter-spacing: -1px;
+    padding-top:5px;   margin-bottom: 5px;
+}
 .slogan{
-    width: 52%;
+    /*width: 52%;*/
     float:left;
-    font-size:18px;font-family:inherit;padding-top:20px;}
+    font-size:26px;font-family:inherit;padding-top:20px;}
 #tukhoachay{width:700px}
 #tukhoachay li{display:inline-block;color:#fff;line-height:18px}
 #tukhoachay li a{color:#fff;font-size:13px}
@@ -305,6 +318,6 @@ div.slider-nav span.left{background:url(../img/left.png) no-repeat;left:89%;top:
 .form_contact{width:100%;font-size:14px;color:#444}
 button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit;margin-bottom:5px;padding:5px}
 .send{background:#3c763d;color:#fff;border:0;border-radius:3px;padding:7px}
-.togger-menu{display:block;color:#fff; }
+.togger-menu{display:none;color:#fff; }
 .sub-menu,.togger-menu-sub{display:none}
 /*#menu-primary{padding: 0 15px}*/

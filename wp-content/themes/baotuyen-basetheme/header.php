@@ -14,8 +14,6 @@
         <link rel="icon" href="<?php echo get_template_directory_uri() ?>/img/logo 1 - Copy (2)(1).png" type="image/x-icon" />
         <title>Thi công biển quảng cáo, đèn Led, Chữ đồng, Inox, Quảng Cáo Quan Sơn</title>
 
-        <!--    <base href="http://quangcaoquanson.com/">
-            <link rel="canonical" href="http://quangcaoquanson.com/">-->
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
@@ -35,8 +33,10 @@
     <body >
         <div class="container">
             <header id="header">
+                <img class="banner" src="<?php echo get_template_directory_uri()?>/img/banner.jpg">
                 <div class="top-header">
-                    <div id="logo">
+                   
+<!--                    <div id="logo">
                         <a href="<?php echo home_url() ?>">
                             <img src="<?php echo get_template_directory_uri() ?>/img/logo.jpg">
                         </a>
@@ -44,16 +44,10 @@
                     <div class="wrap_logo" >
                         <div class="slogan">Công ty TNHH quảng cáo và phát triển công nghệ Đức Phát</div>
                         <div id="hotline_top">
-                            <p>Điện thoại</p>
                             <p><?php echo get_field('phone', PAGE_HOME) ?></p>
                         </div>
-    <!--                        <form class="search"  action="<?php echo home_url('/'); ?>" >
-                            <input type="text" class="search-field" name="s" id="ten" placeholder="Nhập từ khóa"
-                                   value="<?php echo get_search_query() ?>" name="s"/>
-                            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                            <div class="clear"></div>
-                        </form>-->
-                    </div>
+   
+                    </div>-->
                     <div class="clear"></div>
                 </div>
                 <div class="togger-menu"><span>&nbsp;</span> <i class="fa fa-bars" aria-hidden="true"></i></div>

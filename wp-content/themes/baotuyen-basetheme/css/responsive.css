@@ -7,17 +7,23 @@
     }
     .slogan {
         line-height: 19px;
-        font-size: 16px;
-        width: 44%;
+        font-size: 18px;
+        /*width: 44%;*/
+        margin-right: 10px;
     }
 }
 @media (max-width: 768px) {
+    header{
+        box-shadow: 0 6px 4px -1px #908f8f, 0 15px 5px 0 rgba(0,0,0,.06), 0 5px 10px 0 rgba(0,0,0,.08);
+    }
+    .togger-menu{display:block; }
     /*    .ads-left, .ads-right {
             display:none
         }*/
     #slider {
         width: 100%;
         height: 300px;
+		display:none;
     }
     #hotline_top {
         display: none;
@@ -167,6 +173,8 @@
         display: inline-block;
         width: 100%;
         cursor: pointer;
+        position: absolute;
+        top: 0;
     }
     .togger-menu span {
         float: left;
@@ -179,7 +187,7 @@
         float: right;
         right: 0;
         position: absolute;
-        color: #000;
+        /*color: #000;*/
         font-size: 25px;
         cursor: pointer;
         margin-right: 10px;
@@ -250,9 +258,7 @@
     }
 }
 @media (max-width: 480px) {
-    header{
-        box-shadow: 0 6px 4px -1px #908f8f, 0 15px 5px 0 rgba(0,0,0,.06), 0 5px 10px 0 rgba(0,0,0,.08);
-    }
+
     #slider {
         display: none;
     }

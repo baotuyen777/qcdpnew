@@ -7,8 +7,11 @@ body {
     color: #000;
 }
 header{
-    background: url(../img/wood-horizontal.jpg);
-        background-size: cover;
+    /*background: url(../img/wood-horizontal.jpg);*/
+    background-size: cover;
+}
+.banner{
+    max-width: 100%;
 }
 p,em{
     margin-bottom: 10px;
@@ -29,16 +32,18 @@ form.search{
     font-size: 14px;
 }
 .top-header{
+    position: relative;
     /*text-align: center;*/
 }
 main{
 
 }
 main h4{
- font-weight: bold;
+    font-weight: bold;
 }
 main img{
     max-width: 100%;
+    height: auto;
 }
 .aligncenter{
     text-align: center;
